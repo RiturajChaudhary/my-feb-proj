@@ -25,7 +25,7 @@ post {
         }
         failure {
                    sh 'echo "Build failed!"'
-            sh 'echo "Build failed at `date`!" >> susigugh-01.log'
+            sh 'echo "Build failed at a `date`!" >> susigugh-01.log'
         }
 }
 }
