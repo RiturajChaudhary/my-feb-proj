@@ -8,7 +8,7 @@ pipeline {
                 sh 'git clone https://github.com/SUSIGUGH/proj-feb.git'
                 sh 'pwd'
                 sh 'ls -ltr'
-                sh 'echo "End of Stage Git"'
+                sh 'echo "End of a Stage Git"'
             }
         }
         stage('Docker commands'){
